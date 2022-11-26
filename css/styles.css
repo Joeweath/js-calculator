@@ -1,0 +1,27 @@
+body {
+  background-color: #181a1b;
+  color: #d1cdc7;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+#screen {
+  border-style: solid;
+  border-color: aqua;
+  width: 80%;
+  align-self: center;
+
+}
+
+#calculator {
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
