@@ -1,15 +1,5 @@
 /*-------------------------------- Constants --------------------------------*/
-const one = 1;
-const two = 2;
-const three = 3;
-const four = 4;
-const five = 5;
-const six = 6;
-const seven = 7;
-const eight = 8;
-const nine = 9;
-const zero = 0;
-const add = +;
+
 
 
 
@@ -18,6 +8,17 @@ const add = +;
 
 
 /*------------------------ Cached Element References ------------------------*/
+const zeroBtn = document.querySelector('zero-btn');
+const oneBtn = document.querySelector('one-btn');
+const twoBtn = document.querySelector('two-btn')
+const threeBtn = document.querySelector('three-btn')
+const fourBtn = document.querySelector('four-btn')
+const fiveBtn = document.querySelector('five-btn')
+const sixBtn = document.querySelector('six-btn')
+const sevenBtn = document.querySelector('svn-btn')
+const eightBtn = document.querySelector('eight-btn')
+const nineBtn = document.querySelector('nine-btn')
+
 
 
 
@@ -27,3 +28,6 @@ const add = +;
 
 /*-------------------------------- Functions --------------------------------*/
 
+function init (){
+  
+}
