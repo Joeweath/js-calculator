@@ -4,7 +4,7 @@
 
 
 /*-------------------------------- Variables --------------------------------*/
-
+let screen = document.querySelector('display')
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -22,12 +22,15 @@ const nineBtn = document.querySelector('nine-btn')
 
 
 
-/*----------------------------- Event Listeners -----------------------------*/
 
+
+/*----------------------------- Event Listeners -----------------------------*/
+document.getElementById('clear-btn').addEventListener("click", init)
 
 
 /*-------------------------------- Functions --------------------------------*/
 
 function init (){
-  
+ document.getElementById('display').innerHTML = " 0 "
 }
+
